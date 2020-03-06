@@ -10,12 +10,13 @@ const userInput = function() {
     if (!input) {
       break;
     }
+  const isNum = Number(input);
 
-    if (Number.isNaN(input)) {
+    if (Number.isNaN(isNum)) {
       alert('Было введено не число, попробуйте еще раз');
     } else {
       numbers.push(Number(input));
-      // console.log(numbers);
+      console.log(numbers);
     }
   } while (input !== null);
 
@@ -27,10 +28,3 @@ const userInput = function() {
 };
 
 console.log(userInput());
-
-
-
-
-
-
-

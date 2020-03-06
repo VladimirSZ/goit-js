@@ -1,10 +1,10 @@
 'use strict';
 
-const zveri = ['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong'];
+const animals = ['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong'];
 const logItems = function(array) {
 
-      for(let i=0;  i < zveri.length; i=i+1) {
-          console.log(`${i + 1} - ${zveri[i]}`);
+      for(let i=0;  i < animals.length; i=i+1) {
+          console.log(`${i + 1} - ${animals[i]}`);
       }
 };
 
