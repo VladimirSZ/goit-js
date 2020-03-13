@@ -19,7 +19,7 @@ const inventory = {
     action(itemName);
   };
   
-  invokeInventoryAction('Medkit', inventory.add.bind(inventory, ));
+  invokeInventoryAction('Medkit', inventory.add.bind(inventory));
   // Invoking action on Medkit
   // Adding Medkit to inventory
   
